@@ -1,12 +1,23 @@
 ![image](https://github.com/AJinks28/GardenCityEstimates/assets/133963919/460e28f7-62d9-4c6d-86bd-317605ebb4da)
 
+**Objective**: Build a real estate price prediction website.
+**Data Source**: Utilize the Bangalore home prices dataset from Kaggle.com.
+**Modeling**:
+- Use Python's sklearn library for linear regression to predict home prices.
+- Perform data cleaning, outlier detection and removal, feature engineering, and dimensionality reduction.
+- Apply GridSearchCV for hyperparameter tuning and k-fold cross-validation to validate the model.
+**Server Setup**:
+- Develop a Python Flask server to handle HTTP requests with the saved prediction model.
+**User Interface**:
+- Create a website using HTML, CSS, and JavaScript.
+- Allow users to input home characteristics (e.g., square footage, number of bedrooms) to receive price predictions.
+**Technologies and Tools**:
+- Python for backend logic, including data cleaning and model building.
+- Numpy and Pandas for data manipulation.
+- Matplotlib for data visualization.
+- Sklearn for constructing the prediction model.
+- Jupyter Notebook, Visual Studio Code, and PyCharm as Integrated Development Environments (IDEs).
+- Flask for setting up the HTTP server.
+- HTML/CSS/JavaScript for frontend development.
 
-This data science project series walks through step by step process of how to build a real estate price prediction website. We will first build a model using sklearn and linear regression using banglore home prices dataset from kaggle.com. Second step would be to write a python flask server that uses the saved model to serve http requests. Third component is the website built in html, css and javascript that allows user to enter home square ft area, bedrooms etc and it will call python flask server to retrieve the predicted price. During model building we will cover almost all data science concepts such as data load and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, gridsearchcv for hyperparameter tunning, k fold cross validation etc. Technology and tools wise this project covers,
 
-Python
-Numpy and Pandas for data cleaning
-Matplotlib for data visualization
-Sklearn for model building
-Jupyter notebook, visual studio code and pycharm as IDE
-Python flask for http server
-HTML/CSS/Javascript for UI
